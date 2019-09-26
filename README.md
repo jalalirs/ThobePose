@@ -1,3 +1,3 @@
 # ThobePose
 
-[Dataset instructions](https://github.com/jalalirs/ThobePose/doc/index.html)
+[Dataset instructions](https://github.io/jalalirs/ThobePose/docs/index.html)
