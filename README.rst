@@ -2,7 +2,7 @@
 
 .. title:: Thobe Dataset
 
-.. figure::  docs/docs/_static/imgs/header.png
+.. figure::  docs/_static/imgs/header.png
    :align:   center
    :width: 960px
 
