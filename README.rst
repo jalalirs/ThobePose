@@ -65,17 +65,17 @@ The following applications are required in order to generate the datasets:
  
 Get Started
 +++++++++++
-If you wish to use the basic datasets, please download them from here(`nothobe <../datasets/nothobe.zip/>`_ & `4colors <../datasets/4colors.zip/>`_)
+If you wish to use the basic datasets, please download them from here(`nothobe <datasets/nothobe.zip/>`_ & `4colors <datasets/4colors.zip/>`_)
  
 To be able to acquire the full dataset, please follow the following steps:
                
-1. Download `raw material <./Syn_Thobe.zip>`_
-2. Unzip the file in some location, say in "~/Documents/datasets/"
-3. In a terminal window run the following
-                - cd ~/Documents/datasets/Syn_Thobe/scripts
+1. Clone this repo
+   - git clone https://github.com/jalalirs/ThobePose.git
+2. Run the renderer
+                - cd ThobePose/scripts
                 - ./render.sh
 4. The renderer will start rendering the scene in batches of 50 frames per run. The rendering will take a while (~3 hours).
-5. The rendered depth and ground truth images will be stored in "~/Documents/datasets/Syn_Thobe/images/pngs"
+5. The rendered depth and ground truth images will be stored in "images/pngs"
 6. The script will render the dataset according to the default configuration. Please read below to know what they are and how to change them
  
  
